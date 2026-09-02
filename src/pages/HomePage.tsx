@@ -1,6 +1,6 @@
 import { useCallback, useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
-import type { TeachHubApiClient, TeachWorkspaceSummary } from '@profile/teach-hub-shared';
+import type { TeachHubApiClient, TeachWorkspaceSummary } from '@profile/teach-hub-core/shared';
 
 type Props = {
   api: TeachHubApiClient;
@@ -63,7 +63,7 @@ export function HomePage({ api }: Props) {
         ))
       )}
       <p className="muted" style={{ marginTop: 24 }}>
-        桌面端 V1 脚手架：工作区列表 + 登录。完整 UI 将复用 teach-hub-shared 逐步补齐。
+        桌面端 V1 脚手架：工作区列表 + 登录。完整 UI 将复用 teach-hub-core/shared 逐步补齐。
       </p>
       <p>
         <Link to="/login">重新登录</Link>

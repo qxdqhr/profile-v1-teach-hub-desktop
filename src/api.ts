@@ -1,4 +1,4 @@
-import { TeachHubApiClient } from '@profile/teach-hub-shared';
+import { TeachHubApiClient } from '@profile/teach-hub-core/shared';
 
 export const AUTH_BASE_URL =
   import.meta.env.VITE_AUTH_BASE_URL?.replace(/\/+$/, '') || 'http://localhost:3000';

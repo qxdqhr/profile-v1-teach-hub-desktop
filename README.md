@@ -2,7 +2,7 @@
 
 `@profile/teach-hub-desktop` — Electron + Vite + React 桌面端脚手架。
 
-与 `web/teach-hub-mobile` 同级，共享 `npm/teach-hub-shared`。
+与 `web/teach-hub` 同级，共享 `@profile/teach-hub-core/shared`。
 
 ## 本地开发
 
