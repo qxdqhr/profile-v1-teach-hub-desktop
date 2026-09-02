@@ -12,7 +12,7 @@ pnpm dev:web
 pnpm dev:teach-hub
 
 # 终端 3
-cp web/teach-hub-desktop/.env.example web/teach-hub-desktop/.env
+cp desktop/teach-hub-desktop/.env.example desktop/teach-hub-desktop/.env
 pnpm dev:teach-hub-desktop
 ```
 
