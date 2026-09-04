@@ -1,6 +1,6 @@
 import { useCallback, useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
-import type { TeachHubApiClient, TeachWorkspaceSummary } from '@profile/teach-hub-core/shared';
+import type { TeachHubApiClient, TeachWorkspaceSummary } from 'sa2kit/business/teachHub/domain';
 
 type Props = {
   api: TeachHubApiClient;

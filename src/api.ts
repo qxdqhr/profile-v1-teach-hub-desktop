@@ -1,4 +1,4 @@
-import { TeachHubApiClient } from '@profile/teach-hub-core/shared';
+import { TeachHubApiClient } from 'sa2kit/business/teachHub/domain';
 
 export const AUTH_BASE_URL =
   import.meta.env.VITE_AUTH_BASE_URL?.replace(/\/+$/, '') || 'http://localhost:3000';
